@@ -23,6 +23,10 @@ Then to install a package, for example `zeal`, run:
 
 `brew install persuck/dotfiles/zeal --HEAD`
 
+You may also want to create a symlink in `/Applications` with:
+
+`ln -s /opt/homebrew/Cellar/zeal/*/Zeal.app /Applications/Zeal.app`
+
 __Debugging Formulae__
 
 You can run the following command to install any formula from a file, print verbose output, and also open an interactive shell inside the temporary build directory:
