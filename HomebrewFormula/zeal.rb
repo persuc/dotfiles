@@ -15,7 +15,7 @@ class Zeal < Formula
     mkdir "build" do
       system "cmake", "..", *std_cmake_args
       system "make"
-      prefix.install "bin/Zeal.app"
+      prefix.install "Zeal.app"
       (bin/"zeal").write("#! /bin/sh\n#{prefix}/Zeal.app/Contents/MacOS/Zeal \"$@\"\n")
     end
   end
