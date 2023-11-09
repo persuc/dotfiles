@@ -4,7 +4,6 @@ class Zeal < Formula
   desc 'Zeal is a simple offline documentation browser inspired by Dash.'
   homepage "http://zealdocs.org/"
   head "https://github.com/zealdocs/zeal.git"
-  branch "main"
 
   depends_on "cmake" => :build
   depends_on "qt@5"
