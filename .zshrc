@@ -36,7 +36,7 @@ export CXX=clang++
 alias zshconfig="code ~/.zshrc"
 alias tsm="transmission-remote"
 alias src="source ~/.zshrc"
-alias undate="find . -exec SetFile -md '$(date +%m/%d/%y %H:%M:%S)' '{}' \;"
+alias undate="find . -exec SetFile -md \"$(date +'%m/%d/%Y %H:%M:%S')\" '{}' \;"
 
 function nano {
   echo "𐫰 Cruel laughter𐫰"
